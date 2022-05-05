@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestesDio
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //double pi, raio, volume;
+            //pi = 3.14159;
+            //TODO: Complete os espaços em branco com uma possível solução para o desafio     
+            //raio = double.Parse(Console.ReadLine());
+            //volume = (4.0 / 3) * pi * Math.Pow(raio, 3.0);
+
+
+            int [] a = new int[10];
+            
+            for (int i = 0; i < a.Length; i++)
+            {
+                a[i] = i * i;
+                Console.WriteLine(a[i]);
+
+            }
+
+
+
+
+
+
+
+           
+            //double N = double.Parse(Console.ReadLine());
+           // double L = double.Parse(Console.ReadLine());
+           // double P = N * L;
+           // Console.WriteLine(P);
+
+
+            //Console.WriteLine(volume.ToString("0.000"));
+            //Console.WriteLine(String.Format("{0:0.000}", volume));
+
+
+
+
+            Console.ReadLine();
+        }
+    }
+}
